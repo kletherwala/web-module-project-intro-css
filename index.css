@@ -23,7 +23,7 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 /* general styles */
 html{
@@ -95,8 +95,8 @@ nav a{
 }
 
 .one{
-    background-color: pink;
-    padding: 1%;
+    background-color:#DDB9A3;
+    padding: 2%;
     color: white;
     text-align: center;
     margin: 5%
@@ -108,6 +108,18 @@ nav a{
 .camp{
     padding: 30%;
 }
-.footer{
-    background-color: pink;
+footer{
+    background-color:#F9E7DC;
+}
+
+.bold{
+    font-weight: bold;
+}
+.bg-img{
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
 }
